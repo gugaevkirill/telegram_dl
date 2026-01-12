@@ -48,13 +48,15 @@ pip install -r requirements.txt
 3. Set up your Telegram API credentials:
    - Go to https://my.telegram.org/apps
    - Create a new application
-   - Note down your `api_id` and `api_hash`
+   - Save your `api_id` and `api_hash` somewhere, you'll need to provide them during the first execution of the tool
 
-## Configuration
+4. Try any command like
+```bash
+python telegram_dl.py list
+```
 
-Before first use, you'll need to:
-1. Configure your Telegram API credentials
-2. Authenticate with your Telegram account
+5. During the first run you'll have to provide `api_id` and `api_hash` from Step 3 and then you'll need to authenticate in Telegram by phone number and code.
+
 
 ## Usage
 
